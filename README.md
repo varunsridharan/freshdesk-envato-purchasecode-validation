@@ -1,22 +1,22 @@
 # Fresh Desk Envato Purchase Code Validation
 This addon will create a new widget in the ticket view page where there will be an option to validate purchase code given by the customer. and get information about the purchase code. 
 
-### Features
+## Features
 1. Check if its a valid purchase code
 2. Provide indepth information about the purchase if its valid purchase code.
 3. Provides exact status ( Valid, Invalid)
 
-### Installation
-#### Step 1 : 
+## Installation
+### Step 1 : 
 Please create a new personal token @ https://build.envato.com/my-apps/
 And make sure that you have these 2 permissions
 1. View and search Envato sites
 2. View your items' sales history
 
-#### Step 2 :
+### Step 2 :
 Create a custom field for purchase code in ticket fields if not already created
 
-#### Step 3:
+### Step 3:
 Install this addon and configure it.
 
 ## Screenshot
