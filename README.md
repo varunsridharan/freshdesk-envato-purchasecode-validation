@@ -1,5 +1,4 @@
-## Fresh Desk Envato Purchase Code Validation
-
+# Fresh Desk Envato Purchase Code Validation
 This addon will create a new widget in the ticket view page where there will be an option to validate purchase code given by the customer. and get information about the purchase code. 
 
 ### Features
@@ -29,7 +28,7 @@ Install this addon and configure it.
 If you would like to help, please take a look at the list of
 [issues](https://github.com/varunsridharan/freshdesk-envato-purchasecode-validation/issues) or the [To Do](#-todo) checklist.
 
-# License
+## License
 This project is licensed under **General Public License v3.0 license**. See the [LICENSE](LICENSE) file for more info.
 
 ## Copyright
@@ -39,7 +38,6 @@ If you find it useful, let me know :wink:
 
 You can contact me on [Twitter](https://twitter.com/varunsridharan2) or through my [email](mailto:varunsridharan23@gmail.com).
 
----
 
 ## Backed By
 | [![DigitalOcean](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/DO_Logo_Horizontal_Blue-small.png)](https://s.svarun.in/Ef)           | [![JetBrains](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/phpstorm-small.png?v3)](https://www.jetbrains.com) | [![FreshDesk](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/freshdesk.svg)](https://freshdesk.com) | [![Tidio Chat](https://vsp.ams3.cdn.digitaloceanspaces.com/cdn/tidiochat-small.png)](https://tidiochat.com) |
