@@ -1,0 +1,82 @@
+.svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: white;
+}
+
+.svg-icon circle {
+    stroke: white;
+    stroke-width: 1;
+}
+
+.detailInfo ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.detailInfo ul li {
+    margin-bottom: 15px;
+}
+
+@-webkit-keyframes spinner-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spinner-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spinner-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.vsenfa-spin {
+    -webkit-animation: spinner-spin 1s steps(8) infinite;
+    -moz-animation: spinner-spin 1s steps(8) infinite;
+    -o-animation: spinner-spin 1s steps(8) infinite;
+    animation: spinner-spin 1s steps(8) infinite;
+}
+
+.envatosupportnotice .alert {
+    display: inline-block;
+}

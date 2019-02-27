@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css">
+    <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        jQuery("#error_div").hide();
+    </script>
+    <script type="text/javascript">
+        function getConfigs(configs) {
+            jQuery("#error_div").hide();
+            jQuery("input[name=apikey]").val(configs["apikey"]);
+            jQuery("input[name=purchase_code_field]").val(configs["purchase_code_field"]);
+        }
+    </script>
+    <script type="text/javascript">
+        function validate() {
+            let isValid = true;
+            return isValid;
+        }
+    </script>
+    <script type="text/javascript">
+        function postConfigs() {
+            var apikey = jQuery("input[name=apikey]").val();
+            return {
+                apikey: apikey,
+                purchase_code_field: jQuery("input[name=purchase_code_field]").val()
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="contact-fields">
+    <h3>Envato Purchase Code Validation</h3>
+    <div class="form-group">
+        <label for="apikey">Envato Personal Token</label>
+        <input type="text" class="form-control" id="apikey" placeholder="Your Envato API Key" name="apikey">
+        <p>Please create a new personal token @ <a href="https://build.envato.com/my-apps/" target="_blank">https://build.envato.com/my-apps/</a>
+        </p>
+        <p>And make sure that you have these 2 permissions</p>
+        <ul>
+            <li><code>View and search Envato sites</code></li>
+            <li><code>View your items' sales history</code></li>
+        </ul>
+    </div>
+
+    <hr/>
+
+    <div class="form-group">
+        <label for="purchase_code_field">Purchase Code Field</label>
+        <input type="email" class="form-control" id="purchase_code_field" placeholder="Envato Purchase Code"
+               name="purchase_code_field">
+        <p>Please enter the field custom field title which contains Purchase Code of a ticket.</p>
+        <p><strong>Note : </strong> Name should use Agent Label.</p>
+        <p><strong>Note : </strong> Also Field Name should be converted like below.</p>
+        <p>if the field name is <code>Envato Purchase Code</code> then it should be entered as <code>cf_envato_purchase_code</code>
+        </p>
+        <img src="https://vsp.ams3.cdn.digitaloceanspaces.com/sshots/i/2019/Feb/26/1551184142-171.jpg">
+    </div>
+</div>
+</body>
+</html>
